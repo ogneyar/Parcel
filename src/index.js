@@ -6,4 +6,4 @@ let $head = document.getElementById("head")
 setTimeout(()=>{
     $h1.innerHTML = "Как Вам Parcel сер???"
     $head.innerHTML = "Parcel testing..."
-}, 2000)
+}, 1500)
