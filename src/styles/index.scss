@@ -40,6 +40,14 @@ h1 {
         right: 0;
         // background: violet;
         padding: 20px;
+
+        animation: head 3s ease infinite;
     }
     // background: yellow;
+}
+
+@keyframes head {
+    0% { top: 20px; }
+    50% { top: 40px; }
+    100% { top: 20px; }
 }
