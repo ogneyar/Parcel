@@ -4,7 +4,7 @@
   "description": "lerning parcel",
   "main": "src/index.js",
   "scripts": {
-    "dev": "parcel src/index.html src/test.html -p 3000",
+    "dev": "parcel src/index.html -p 3000",
     "build": "parcel build src/index.html src/test.html"
   },
   "keywords": [

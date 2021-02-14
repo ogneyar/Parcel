@@ -10,46 +10,13 @@ body {
     align-items: center;
     justify-content: center;    
 }
-h1 {
-    font-weight: 900;
-}
-#h1 {
-    text-align: center;
-    background-color: rgb(223, 73, 73);
-    color: beige;
-    padding: 5px 10px;
-    border-radius: 50px;
-    /* line-height: 1.2; */
-    animation: box 1s ease-out infinite;
-}
-
-
-@keyframes box {
-    0% { padding: 5px 10px; }
-    50% { padding: 15px 20px; }
-    100% { padding: 5px 10px; }
-}
 
 .main {
-    // width: 100%;
-    text-align: center;
     
-    #head {
-        // width: 50px;
-        position: fixed;
-        top: 20px;
-        left: 0;
-        right: 0;
-        // background: violet;
-        padding: 20px;
-
-        animation: head 3s ease infinite;
+    text-align: center;
+ 
+    .p {
+        
     }
-    // background: yellow;
-}
-
-@keyframes head {
-    0% { top: 20px; }
-    50% { top: 40px; }
-    100% { top: 20px; }
+   
 }
