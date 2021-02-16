@@ -26,6 +26,7 @@ h1 {
     border-radius: 50px;
     /* line-height: 1.2; */
     animation: box 1s ease-out infinite;
+    z-index: 1;
 }
 @keyframes box {
     0% { padding: 10px 10px; }
@@ -41,10 +42,16 @@ h1 {
 #head {   
     position: fixed;
     top: 20px;
-    left: 0;
-    right: 0;
+    // left: 0;
+    left: calc(50vw - 100px);
+    // right: 0;
     padding: 20px;
     animation: head 3s ease infinite;
+    z-index: 1;
+    backdrop-filter: blur(3px);
+    width: 200px;
+    border-radius: 20px;
+    font-weight: 900;
 }
 @keyframes head {
     0% { top: 20px; }
@@ -84,4 +91,10 @@ h1 {
     position: absolute;
     bottom: 20px;
     left: 10px;
+    z-index: 1;
+    backdrop-filter: blur(3px);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 900;
+    border: solid 1px black;
 }
